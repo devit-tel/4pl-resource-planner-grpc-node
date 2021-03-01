@@ -1,6 +1,6 @@
 ```javascript
-const service = require("../src/coordinator_grpc_pb");
-const message = require("../src/coordinator_pb");
+const service = require("@sendit-th/4pl-resource-planner-grpc-node/coordinator_grpc_pb");
+const message = require("@sendit-th/4pl-resource-planner-grpc-node/coordinator_pb");
 const grpc = require("@grpc/grpc-js");
 
 const c = new service.CoordinatorClient(
